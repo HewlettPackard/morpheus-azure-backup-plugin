@@ -129,8 +129,4 @@ class VaultDatasetProvider extends AbstractDatasetProvider<ReferenceData, String
      * Returns true if the Provider is a plugin. Always true for plugin but null or false for Morpheus internal providers.
      * @return provider is plugin
      */
-    @Override
-    boolean isPlugin() {
-        return true
-    }
 }

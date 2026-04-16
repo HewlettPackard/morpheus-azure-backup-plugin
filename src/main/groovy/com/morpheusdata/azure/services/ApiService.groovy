@@ -108,7 +108,6 @@ class ApiService {
                 authConfig.token = rtn.token
                 authConfig.expires = rtn.expires
             } else {
-                rtn.content = results.content
                 rtn.data = results.data
                 rtn.errorCode = results.errorCode
                 rtn.headers = results.headers
